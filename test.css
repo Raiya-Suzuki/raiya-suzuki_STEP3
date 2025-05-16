@@ -28,6 +28,10 @@ float:left;
     margin-left:auto;margin-right:auto;
 }
 
+.send{
+    text-align:right;
+}
+
 .footer{
 width:700px;
 height:50px;

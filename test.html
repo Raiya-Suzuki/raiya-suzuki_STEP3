@@ -18,7 +18,8 @@
     </ul>
     </main>
     <aside class="inquire_form">
-    <table class="profile" border="4">
+    <form>
+        <table class="profile" border="4">
         <tr>
             <th>お名前</th>
             <td align="left"><input type="text" name="your-name" size="40"></td>
@@ -38,7 +39,7 @@
         </tr>
         <tr>
             <th>電話</th>
-            <td align="left"><input tyoe="tel" name="tell" size="40"></td>
+            <td align="left"><input type="tel" name="tell" size="40"></td>
         </tr>
         <tr>
             <th>電話番号</th>
@@ -56,10 +57,13 @@
         </tr>
         <tr>
             <th>お問い合わせ内容</th>
-            <td align="left"><textarea rows="5" cols="30";">詳細を入力してください</textarea></td>
+            <td align="left"><textarea placeholder="詳細を入力してください" rows="5" cols="30";"></textarea></td>
         </tr>               
-    </table>
-    <input type="submit" name="submit1" value="送信">
+        </table>
+        <div class="send">
+        <input type="submit" name="submit1" value="送信">
+        </div>
+    </form>
     </aside>
     <footer class="footer"></footer>
 </body>
